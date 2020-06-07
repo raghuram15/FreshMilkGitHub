@@ -27,12 +27,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tray.full.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="exW-h7-eVO">
+                                <rect key="frame" x="0.0" y="715.5" width="414" height="144.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="148" id="m7x-oG-BCQ"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="fhC-OF-ygJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0Jv-mZ-i2t"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="exW-h7-eVO" secondAttribute="trailing" id="4r5-y2-N1b"/>
                             <constraint firstItem="bcL-Mb-QPX" firstAttribute="top" secondItem="fhC-OF-ygJ" secondAttribute="bottom" constant="10" id="IaM-SQ-Xde"/>
                             <constraint firstItem="fhC-OF-ygJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="QnW-as-VjJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="exW-h7-eVO" secondAttribute="bottom" id="X2W-PK-EG7"/>
+                            <constraint firstItem="exW-h7-eVO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XyU-S2-mUl"/>
                             <constraint firstItem="bcL-Mb-QPX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cCC-es-8Oh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -43,4 +52,7 @@
             <point key="canvasLocation" x="139" y="115"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tray.full.fill" catalog="system" width="64" height="44"/>
+    </resources>
 </document>
